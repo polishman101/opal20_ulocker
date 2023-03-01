@@ -1,7 +1,7 @@
 # opal20_ulocker
 SSD Opal 2.0 Encryption Live Image Unlocker
 
-Create image with `livecd-creator fedora-opal.ks` in /usr/share/spin-kickstarts folder. The resulting image will be placed there. You can inspect this image with `losetup -fP "image"` (this will discover the partition and preset it in `/dev/loop*`).
+Create image with `livecd-creator fedora-opal.ks` in /usr/share/spin-kickstarts folder. The resulting image will be placed there. You can inspect this image with `losetup -fP "image"` (this will discover the partition and present it in `/dev/loop*`).
 
 This image doesn't allow to logon from getty.
 
