@@ -1,13 +1,13 @@
 # opal20_ulocker
 SSD Opal 2.0 Encryption Live Image Unlocker
 
-Create image with `livecd-creator fedora-opal.ks` in /usr/share/spin-kickstarts folder. The resulting image will be placed there. You can inspect this image with `losetup -fP "image"` (this will discover the partition).
+Create image with `livecd-creator fedora-opal.ks` in /usr/share/spin-kickstarts folder. The resulting image will be placed there. You can inspect this image with `losetup -fP "image"` (this will discover the partition and preset it in `/dev/loop*`).
 
 This image doesn't allow to logon from getty.
 
 It has `/dev/nvme0` and `/dev/sda` hardcoded.
 
-Extract squashfs filesystem from resulting image and write it directly to the USB flash drive partition like /dev/sdX3 `cat squashimage >/dev/sdX3`.
+Extract squashfs filesystem from resulting image and write it directly to the USB flash drive partition like /dev/sdX3 `cat squashfs.img >/dev/sdX3`.
 
 Use EFI partition `/dev/sdX1` and /boot `/dev/sdX2` partition and use opal.conf for grub in `/boot/loader/` below.
 
