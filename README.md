@@ -19,7 +19,7 @@ You can find PARTUUID of /dev/sdX3 in folder `/dev/disk/by-partuuid/`.
 
 Format USB flash drive with GPT partition scheme.
 
-opal.loader:
+`opal.loader`:
 
 title Opal  
 version 5.18  
