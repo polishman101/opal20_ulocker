@@ -1,22 +1,3 @@
-[root@fedora spin-kickstarts]# ls -ld *opal*
--rw-r--r--. 1 root root     11533 Feb 23 09:44 fedora-opal.ks
--rw-r--r--. 1 root root     11364 Feb 22 13:13 fedora-opal.ks~
--rw-r--r--. 1 root root     11615 Feb 20 19:33 fedora-opal.ks.backup
--rw-r--r--. 1 root root 701497344 Feb 20 19:56 livecd-fedora-opal-202302201949.iso
--rw-r--r--. 1 root root 702545920 Feb 20 20:44 livecd-fedora-opal-202302202030.iso
--rw-r--r--. 1 root root 702545920 Feb 22 13:19 livecd-fedora-opal-202302221313.iso
--rw-r--r--. 1 root root 701497344 Feb 23 06:05 livecd-fedora-opal-202302230559.iso
--rw-r--r--. 1 root root 701497344 Feb 23 06:37 livecd-fedora-opal-202302230631.iso
--rw-r--r--. 1 root root 702545920 Feb 23 06:51 livecd-fedora-opal-202302230644.iso
--rw-r--r--. 1 root root 701497344 Feb 23 07:50 livecd-fedora-opal-202302230745.iso
--rw-r--r--. 1 root root 699400192 Feb 23 07:56 livecd-fedora-opal-202302230751.iso
--rw-r--r--. 1 root root 702545920 Feb 23 08:32 livecd-fedora-opal-202302230827.iso
--rw-r--r--. 1 root root 701497344 Feb 23 09:05 livecd-fedora-opal-202302230859.iso
--rw-r--r--. 1 root root 701497344 Feb 23 09:11 livecd-fedora-opal-202302230906.iso
--rw-r--r--. 1 root root 701497344 Feb 23 09:49 livecd-fedora-opal-202302230944.iso
-[root@fedora spin-kickstarts]# cayt ^Cc^C
-[root@fedora spin-kickstarts]# caty ^C
-[root@fedora spin-kickstarts]# cat fedora-opal.ks
 # fedora-live-base.ks
 #
 # Defines the basics for all kickstarts in the fedora-live branch
