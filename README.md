@@ -9,7 +9,7 @@ It has `/dev/nvme0` and `/dev/sda` hardcoded.
 
 Extract squashfs filesystem from resulting image and write it directly to the USB flash drive partition like /dev/sdX3 `cat squashimage >/dev/sdX3`.
 
-Create EFI partition `/dev/sdX1` and /boot `/dev/sdX2` partition and use opal.conf for grub in `/boot/loader/` below.
+Use EFI partition `/dev/sdX1` and /boot `/dev/sdX2` partition and use opal.conf for grub in `/boot/loader/` below.
 
 EFI you can copy from your current fedora just like `/boot`, just rename latest kernel and initrd to `vmlinuz` and `initrd0.img`.
 
